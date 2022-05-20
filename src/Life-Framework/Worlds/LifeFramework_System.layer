@@ -39,6 +39,7 @@ LF_LifeGameMode Life_GameMode {
   }
  }
  coords 4590.965 18.167 10659.273
+ PlayerControllerPrefab "{0244F1B33538EBA2}Prefabs/Characters/LifePlayerController.et"
 }
 PerceptionManager Perception_Manager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 4593.41 18.159 10657.481
@@ -48,7 +49,7 @@ LF_LoadoutManager Loadout_Manager {
  m_aPlayerLoadouts {
   SCR_FactionPlayerLoadout "{59695863786FA673}" {
    m_sLoadoutName "Civlllian Loadout"
-   m_sLoadoutResource "{854C04F0EA2129CC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Unarmed.et"
+   m_sLoadoutResource "{5E743D118ECC3A44}Prefabs/Characters/Default_Civilian.et"
    m_sAffiliatedFaction "Civilian"
   }
  }

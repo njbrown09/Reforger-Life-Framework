@@ -1,0 +1,14 @@
+SCR_PlayerController : "{A1AE127F16DD352E}Prefabs/Characters/Core/DefaultPlayerControllerMP_Factions.et" {
+ ID "1A9BA6BEFA06E3B1"
+ components {
+  SCR_HUDManagerComponent "{2FDC275D9EBCDB8B}" {
+   InfoDisplays {
+    SCR_InfoDisplay "{596974855E79180B}" {
+     m_LayoutPath "{DA9BE838A7F00931}UI/HUD.layout"
+     m_eLayer ALWAYS_TOP
+    }
+   }
+  }
+ }
+ coords 4593.331 18.261 10668.279
+}
