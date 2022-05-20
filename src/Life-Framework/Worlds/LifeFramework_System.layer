@@ -1,3 +1,58 @@
-SCR_BaseGameMode GameMode_LifeFramework : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
- coords 4590.01 18.17 10660.2
+LF_FactionManager Faction_Manager {
+ coords 4589.241 18.179 10659.075
+ Factions {
+  SCR_Faction "{59695866B1A86FAB}" {
+   FactionKey "Civilian"
+   FactionColor 1 1 1 0
+   UIInfo UIInfo "{5969586363C393B3}" {
+    Name "Civilian"
+    Description "Civilian"
+   }
+  }
+  SCR_Faction "{59695866B69BA524}" {
+   FactionKey "Police"
+   FactionColor 0.043 0.1 1 0
+   UIInfo UIInfo "{5969586364A82753}" {
+    Name "Police"
+    Description "Police"
+   }
+  }
+ }
+}
+LF_LifeGameMode Life_GameMode {
+ components {
+  LF_RespawnHandlerComponent "{5969586D21732591}" {
+   m_iForcedFaction 0
+   m_iForcedLoadout 0
+  }
+  SCR_DestructionManagerComponent "{5969586D0904D9A9}" {
+  }
+  SCR_HintManagerComponent "{5969586D0210700A}" {
+  }
+  SCR_NotificationSenderComponent "{5969586D04BF5F18}" {
+  }
+  SCR_PlayerProfileManagerComponent "{5969586C5DC4CBCE}" {
+  }
+  SCR_RespawnSystemComponent "{59695863004BF8B8}" {
+  }
+  RplComponent "{59695863C05A78F0}" {
+  }
+ }
+ coords 4590.965 18.167 10659.273
+}
+PerceptionManager Perception_Manager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 4593.41 18.159 10657.481
+}
+LF_LoadoutManager Loadout_Manager {
+ coords 4593.013 18.076 10650.188
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{59695863786FA673}" {
+   m_sLoadoutName "Civlllian Loadout"
+   m_sLoadoutResource "{854C04F0EA2129CC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Unarmed.et"
+   m_sAffiliatedFaction "Civilian"
+  }
+ }
+}
+HitRegistrationManager Hitreg_Manager : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+ coords 4594.345 18.162 10658.461
 }
