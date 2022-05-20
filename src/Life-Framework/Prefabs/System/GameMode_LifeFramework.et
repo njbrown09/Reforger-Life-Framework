@@ -1,0 +1,8 @@
+SCR_BaseGameMode : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
+ ID "56B2B479C6B96951"
+ components {
+  SCR_SaveLoadComponent "{58FA739CBE3E9FC5}" {
+  }
+ }
+ coords 4590.01 18.17 10660.2
+}

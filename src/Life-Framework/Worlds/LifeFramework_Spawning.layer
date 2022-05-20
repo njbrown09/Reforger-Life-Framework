@@ -1,0 +1,4 @@
+SCR_SpawnPoint StPhillipeSpawn : "{E7F4D5562F48DDE4}Prefabs/MP/Spawning/SpawnPoint_Base.et" {
+ coords 4610.368 18.657 10662.563
+ m_sFaction "Civillian"
+}

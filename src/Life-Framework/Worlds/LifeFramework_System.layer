@@ -1,0 +1,3 @@
+SCR_BaseGameMode GameMode_LifeFramework : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
+ coords 4590.01 18.17 10660.2
+}
